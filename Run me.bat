@@ -46,7 +46,7 @@ echo.Opening Fortnite process
 taskkill /IM EasyAntiCheat.exe
 net stop beservice
 taskkill /IM FortniteClient-Win64-Shipping_BE.exe
-start "" "C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\FortniteLauncher.exe"
+start "" "C:\Users\matiy\AppData\Local\NVIDIA Corporation\GeForceNOW\CEF\GeForceNOWStreamer.exe"
 
 cls
 echo.Scanning processes
@@ -73,7 +73,7 @@ GOTO :BA
 echo.Process found.
 taskkill /IM EasyAntiCheat.exe
 Rem add date changer +1 day
-start "" "C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\FortniteLauncher.exe"
+start "" "C:\Users\matiy\AppData\Local\NVIDIA Corporation\GeForceNOW\CEF\GeForceNOWStreamer.exe"
 taskkill /IM FortniteClient-Win64-Shipping_EAC.exe
 GOTO :B 
 
@@ -98,7 +98,7 @@ echo.Opening Fortnite process
 taskkill /IM EasyAntiCheat.exe
 net stop beservice
 taskkill /IM FortniteClient-Win64-Shipping_BE.exe
-start "" "C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\FortniteLauncher.exe"
+start "" "C:\Users\matiy\AppData\Local\NVIDIA Corporation\GeForceNOW\CEF\GeForceNOWStreamer.exe"
 
 cls
 echo.Scanning processes
@@ -126,7 +126,7 @@ echo.Process found.
 net stop beservice
 taskkill /IM FortniteClient-Win64-Shipping_BE.exe
 Rem add date changer +1 day
-start "" "C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\FortniteLauncher.exe"
+start "" "C:\Users\matiy\AppData\Local\NVIDIA Corporation\GeForceNOW\CEF\GeForceNOWStreamer.exe"
 net stop beservice
 taskkill /IM FortniteClient-Win64-Shipping_BE.exe
 GOTO :B 
